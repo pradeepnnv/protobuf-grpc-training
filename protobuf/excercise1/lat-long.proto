@@ -1,6 +1,6 @@
 syntax = "proto3";
 
 message lat_long {
-    int32 latitude = 1;
-    int32 longitude = 1;
+    double latitude = 1;
+    double longitude = 1;
 }
